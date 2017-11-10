@@ -16,9 +16,9 @@
     "watch": "webpack -w"
   },
   "dependencies": {
+    "@bcherny/chart.piecelabel.js": "^0.8.3",
     "babydux": "^2.0.1",
     "chart.js": "^2.7.1",
-    "chart.piecelabel.js": "^0.8.2",
     "lodash": "^4.17.4",
     "mapbox-gl": "^0.41.0",
     "material-ui": "^0.19.4",

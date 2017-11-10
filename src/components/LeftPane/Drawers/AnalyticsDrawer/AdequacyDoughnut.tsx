@@ -1,5 +1,5 @@
+import '@bcherny/chart.piecelabel.js'
 import { Chart, ChartData, ChartTooltipItem } from 'chart.js'
-import 'chart.piecelabel.js'
 import { keyBy, round } from 'lodash'
 import * as React from 'react'
 import { Doughnut } from 'react-chartjs-2'
@@ -54,7 +54,7 @@ export let AdequacyDoughnut = withStore('adequacies')<Props>(({ serviceAreas, st
             label: label(numAdequate, numInadequate)
           }
         }
-      } as any}
+      }}
     />
     <StatsBox withBorders>
       <tr>

@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@bcherny/chart.piecelabel.js@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@bcherny/chart.piecelabel.js/-/chart.piecelabel.js-0.8.3.tgz#136c0a2de19191dbcc1d6cdfcb12f6dd4d867674"
+  dependencies:
+    "@types/chart.js" "^2.6.12"
+    chart.js "^2.1.5"
+
 "@mapbox/gl-matrix@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@mapbox/gl-matrix/-/gl-matrix-0.0.1.tgz#e5126aab4d64c36b81c7a97d0ae0dddde5773d2b"
@@ -49,6 +56,10 @@
 "@types/chart.js@^2.6.11":
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/@types/chart.js/-/chart.js-2.6.11.tgz#efc8ce632bc0ec6ae2543afa73f1f58fe62cd61b"
+
+"@types/chart.js@^2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@types/chart.js/-/chart.js-2.6.12.tgz#1b86a0133c35a3ddee34727ce290a807e8183d8f"
 
 "@types/geojson@*":
   version "1.0.5"
@@ -1177,12 +1188,6 @@ chart.js@^2.1.5, chart.js@^2.7.1:
   dependencies:
     chartjs-color "~2.2.0"
     moment "~2.18.0"
-
-chart.piecelabel.js@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/chart.piecelabel.js/-/chart.piecelabel.js-0.8.2.tgz#de90f147c89f1f2928b88e3391ca39ae28e26ce7"
-  dependencies:
-    chart.js "^2.1.5"
 
 chartjs-color-string@^0.5.0:
   version "0.5.0"
